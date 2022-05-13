@@ -1,6 +1,5 @@
 <?php
-// abaixo, dentro ou acima do nivel 
-//<= 24.9
+
 $altura = 1.80;
 $peso = 85;
 $imc = $peso / ($altura ** 2);

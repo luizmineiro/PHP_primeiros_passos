@@ -15,6 +15,6 @@ $conta3 = [
 //array de arrays
 $contasCorretes = [$conta1, $conta2, $conta3];
 
-for($i = 0; $i < count($contasCorretes); $i++){
+for ($i = 0; $i < count($contasCorretes); $i++) {
     echo $contasCorretes[$i]['titular'] . PHP_EOL;
 }

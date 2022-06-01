@@ -21,8 +21,13 @@ function depositar(array $conta, float $valorDeDeposito): array
     return $conta;
 }
 
-
 function exibeMensagem(string $mensagem)
 {
     echo $mensagem . PHP_EOL;
+}
+
+function titularComLetrasMaiusculas(array &$conta)
+{
+    $conta['titular'] = strtoupper($conta['titular']);
+    echo $conta['titular'] . PHP_EOL;
 }
